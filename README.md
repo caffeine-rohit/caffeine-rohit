@@ -96,7 +96,7 @@ Official Oracle Cloud Infrastructure
 
 ### 🎓 University Topper
 **94% - Project Development**  
-Reviv App (Highest marks in batch)
+Reviv App (Highest marks in University)
 
 </td>
 <td align="center" width="50%">
