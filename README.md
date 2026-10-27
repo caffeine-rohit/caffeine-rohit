@@ -1,278 +1,115 @@
-<div align="center">
-
-# 👋 Hi, I'm Rohit Sharma
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=F75C7E&center=true&vCenter=true&random=false&width=600&lines=Software+Developer+%F0%9F%92%BB;Oracle+Certified+Cloud+Developer+%E2%98%81%EF%B8%8F;Open+Source+Contributor+%F0%9F%8C%9F;GSoC+2025+Finalist+%F0%9F%8F%86;Hacktoberfest+Super+Contributor+%F0%9F%8E%83" alt="Typing SVG" />
-
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=caffeine-rohit&label=Profile%20Views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/caffeine-rohit?label=Followers&style=social" alt="followers" />
-  <img src="https://img.shields.io/github/stars/caffeine-rohit?label=Stars&style=social" alt="stars" />
+  <img src="assets/hero.svg" alt="Rohit Sharma, full-stack engineer with a product brain" width="100%"/>
 </p>
 
-### 🚀 Building scalable full-stack solutions with clean architecture and impactful contributions
+<p align="center">
+  <a href="https://linkedin.com/in/rohit-sharma-connect"><img src="https://img.shields.io/badge/LinkedIn-Let's%20talk-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:sharmarohit11506@gmail.com"><img src="https://img.shields.io/badge/Email-sharmarohit11506@gmail.com-161B22?style=flat-square&logo=gmail&logoColor=EA4335" alt="Email"/></a>
+  <a href="https://riscv.org/blog/my-risc-v-mentorship-the-problems-nobody-assigned-me/"><img src="https://img.shields.io/badge/Featured%20on-riscv.org-161B22?style=flat-square&logo=linuxfoundation&logoColor=white" alt="Mentorship write-up on riscv.org"/></a>
+</p>
 
-</div>
+> **I don't wait for tickets.** I find what slows real users down, design the fix with them, build it from 0 to 1, then keep improving it from their feedback until it's a 1 to 100 product.
 
----
+I'm a full-stack engineer (B.Tech CSE, 2028) who works backwards from the user's problem to production: backends I'd trust with real data, and frontends that make hard work feel fast. I learn unfamiliar domains quickly, I take ownership without being asked, and I ship, then listen, then ship again.
 
-## 🧠 About Me
+**What you get on a small, fast team:** product thinking, end-to-end ownership, quick iteration on user feedback, and code that is validated, tested and reviewed before it merges.
 
-```typescript
-const rohit = {
-    role: "Full Stack Developer",
-    education: "Computer Science Engineering",
-    achievements: [
-        "GSoC 2025 Finalist (OWASP)", 
-        "Hacktoberfest Super Contributor",
-        "Oracle Certified", 
-        "University Topper"
-    ],
-    currentFocus: ["Open Source", "Cloud Architecture", "System Design"],
-    philosophy: "Build with purpose, contribute with impact 🎯"
-};
-```
+<br/>
 
-<table>
-<tr>
-<td width="60%" valign="top">
+## What changed after I shipped
 
-🎯 **GSoC 2025 Finalist** with OWASP organization, ranked among top contributors globally  
-🌟 **Hacktoberfest 2025 Super Contributor** — Top 10K global contributors with 6+ merged PRs  
-💡 Passionate about crafting **scalable architectures**, **intuitive UIs**, and **secure systems**  
-🌱 Currently exploring **advanced cloud patterns**, **microservices**, and **security engineering**  
-⚡ Active contributor to major open-source projects including **OWASP**, **Storybook**, and **OpenGov Africa**
+<p align="center">
+  <img src="assets/impact.svg" alt="Before and after diffs: Config Builder, Extension Sandbox, data pipeline, OGA Contributor Dashboard, OWASP PyGoat" width="100%"/>
+</p>
 
-</td>
-</tr>
-</table>
+<br/>
 
----
+## Selected work
 
-## 🏆 Achievements & Recognition
+### OGA Contributor Dashboard, built solo for OpenGov Africa
+*Founder and lead developer · React, PostgreSQL, GitHub API, Zod, Vitest · [Live](https://oga-dashboard-beta.vercel.app) · [Repo](https://github.com/OpenGovAfrica/oga-contributor-dashboard) · [Walkthrough](https://vimeo.com/1216654213)*
 
-<div align="center">
+Non-engineering teams couldn't see contributor impact beyond scattered GitHub tabs. I proposed a platform, then designed, built, tested and deployed it alone across 30+ repositories. It's used daily by 100+ contributors and the team leads, and it keeps improving from their feedback.
 
-<table>
-<tr>
-<td align="center" width="33%">
+- **Dashboards for non-engineers:** time-windowed KPIs, PR cycle-time bottleneck detection, streak and retention tracking, and a Code vs. Civic leaderboard so non-code work gets the same visibility.
+- **Production-minded backend:** idempotent, resumable GitHub sync with rate-limit-aware batching and saved execution state.
+- **AI layer:** maintainers ask who needs help and where to focus this week, and get an answer in seconds instead of hours of manual review.
+- **Quality:** 113 assertions across 6 Vitest files with boundary cases and fake timers, and no production code changed to make them pass.
 
-### 🥇 GSoC 2025 Finalist
-<img src="https://img.shields.io/badge/Organization-OWASP-CA2136?style=for-the-badge" />
+I'm also a Maintainer and Operations Team Lead at OpenGov Africa.
 
-**PyGoat Project**  
-Ranked among top contributors globally  
-*Modularization & CI/CD Enhancement*
+<br/>
 
-</td>
-<td align="center" width="33%">
+### RISC-V ISA Explorer, core contributor through the Linux Foundation mentorship
+*LFX Mentee, Jun to Sep 2026 · mentor: Rafael Sene · Node.js, JavaScript, JSON data infrastructure, frontend UI · [Live app](https://riscv.github.io/riscv-isa-explorer) · [Repo](https://github.com/riscv/riscv-isa-explorer)*
 
-### 🎃 Hacktoberfest 2025
-<a href="https://www.holopin.io/hacktoberfest2025/userbadge/cmgrh31ep003tjs04gmuyanvm">
-  <img src="https://assets.holopin.io/hf2025levels/lvl5-human.webp" alt="Hacktoberfest Super Contributor" width="120"/>
-</a>
+The Explorer is the web app engineers use to understand RISC-V, the open standard that processor companies build on. I was one of three mentees worldwide. I worked inside an existing codebase with maintainers, finished my assigned scope, then picked up problems nobody had assigned me. The features below are used by engineers at Andes Technology and other teams, and RISC-V International published my write-up, [*The Problems Nobody Assigned Me*](https://riscv.org/blog/my-risc-v-mentorship-the-problems-nobody-assigned-me/).
 
-**Super Contributor**  
-Top 10,000 Global Contributors  
-*6+ Merged PRs Across Projects*
+| What I shipped | The problem | The result |
+|:--|:--|:--|
+| **Config Builder**<br/>PR #139, #244 | Engineers assembling a configuration chased hidden dependencies and silent conflicts across long specification documents, 2 to 3 hours each. | Dependency resolution, conflict detection, live config output and an export traced to primary sources. The task now takes minutes. After engineers said the side panel felt cramped, I rebuilt it as a full-screen workspace with saved progress. |
+| **Extension Sandbox and Proposal Studio**<br/>PR #295 | Clashes had already slipped into official specifications, and there was no fast way to check a new proposal before spending engineering time. | Live check against 1,188+ catalog entries, a visual editor, a safe zone for private designs, and an export with a record of every check. |
+| **Data pipeline rewrite**<br/>PR #131 | The sync was manual. An audit I ran across 220 entries found 104 silent mismatches blocking automation. | A 3-pass routing engine that validates every run and replaces the catalog atomically only when every check passes: 1,867 records across 83 groups, in seconds. |
+| **Interface overhaul**<br/>PR #140, #164, #168 | Dense data that was hard to scan. | A dark, information-dense "command center" with global search, live counts and color encoding, then polish for light-theme contrast, mobile responsiveness and accessibility. No change to core data logic. |
 
-</td>
-<td align="center" width="33%">
+<br/>
 
-### 🏅 Oracle Certified
-<img src="https://img.shields.io/badge/Oracle-Cloud_Developer-F80000?style=for-the-badge&logo=oracle" />
+### OWASP, full-stack contributions
+*PyGoat, Juice Shop, Cheat Sheet Series · 16+ pull requests merged or approved · 2024 to present*
 
-**OCI Professional**  
-Official Oracle Cloud Infrastructure  
-*Cloud Architecture & Development*
+- **PyGoat (Python/Django):** a start/stop, live-status and concurrency-control module across all 21 lab templates, which closed a mentor-filed issue. Plus an Nginx reverse proxy with Docker Compose profiles that became the base of the project's lab-lifecycle system.
+- **Juice Shop (Angular frontend):** five frontend and accessibility PRs merged directly by the project's creator.
+- **Cheat Sheet Series:** wrote the JSON Web Encryption cheat sheet with Jim Manico as mentor.
 
-</td>
-</tr>
-</table>
+<br/>
 
-<table>
-<tr>
-<td align="center" width="50%">
+### Also
+- **Full-stack web developer intern, CodSoft (Oct to Nov 2025):** a job board and a quiz platform in React, TypeScript, Tailwind and Supabase/PostgreSQL, with JWT/OAuth 2.0, role-based access control, row-level security and 18+ reusable UI components, in Agile sprints.
+- **Freelance web development:** client-ready sites and small tools for international small businesses, which keeps me close to what non-technical customers actually need.
 
-### 🎓 University Topper
-**94% - Project Development**  
-Reviv App (Highest marks in University)
+<br/>
 
-</td>
-<td align="center" width="50%">
+## How I work
 
-### 🚀 Hackathon Finalist
-**Multiple Competitions**  
-Innovation & problem-solving focus
+<p align="center">
+  <img src="assets/flow.svg" alt="Diagnose first, design with users, ship 0 to 1, iterate 1 to 100" width="100%"/>
+</p>
 
-</td>
-</tr>
-</table>
+- **Trust is a feature.** Validate before every write, replace data atomically, trace outputs to their sources and keep a record of every check.
+- **Make experts fast and everyone else able.** Dashboards that show people where to look first, and interfaces that turn hours of specialist work into minutes.
+- **AI is a tool, not a shortcut.** I use AI assistance heavily and review and test every change myself before it merges.
 
-</div>
+<br/>
 
----
+## Stack
 
-## 🛠️ Tech Arsenal
+| | |
+|:--|:--|
+| **Frontend** | ![Next.js](https://img.shields.io/badge/Next.js-161B22?style=flat-square&logo=nextdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-161B22?style=flat-square&logo=react&logoColor=61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-161B22?style=flat-square&logo=typescript&logoColor=3178C6) ![JavaScript](https://img.shields.io/badge/JavaScript-161B22?style=flat-square&logo=javascript&logoColor=F7DF1E) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-161B22?style=flat-square&logo=tailwindcss&logoColor=38BDF8) ![Chart.js](https://img.shields.io/badge/Chart.js-161B22?style=flat-square&logo=chartdotjs&logoColor=FF6384) |
+| **Backend** | ![Node.js](https://img.shields.io/badge/Node.js-161B22?style=flat-square&logo=nodedotjs&logoColor=5FA04E) ![Express](https://img.shields.io/badge/Express-161B22?style=flat-square&logo=express&logoColor=white) ![Python](https://img.shields.io/badge/Python-161B22?style=flat-square&logo=python&logoColor=3776AB) ![Django](https://img.shields.io/badge/Django-161B22?style=flat-square&logo=django&logoColor=44B78B) ![Flask](https://img.shields.io/badge/Flask-161B22?style=flat-square&logo=flask&logoColor=white) ![Zod](https://img.shields.io/badge/Zod-161B22?style=flat-square&logo=zod&logoColor=3E67B1) |
+| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&logo=postgresql&logoColor=4169E1) ![Prisma](https://img.shields.io/badge/Prisma-161B22?style=flat-square&logo=prisma&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-161B22?style=flat-square&logo=supabase&logoColor=3ECF8E) |
+| **Quality and delivery** | ![Vitest](https://img.shields.io/badge/Vitest-161B22?style=flat-square&logo=vitest&logoColor=6E9F18) ![Docker](https://img.shields.io/badge/Docker-161B22?style=flat-square&logo=docker&logoColor=2496ED) ![Nginx](https://img.shields.io/badge/Nginx-161B22?style=flat-square&logo=nginx&logoColor=009639) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-161B22?style=flat-square&logo=githubactions&logoColor=2088FF) ![Vercel](https://img.shields.io/badge/Vercel-161B22?style=flat-square&logo=vercel&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-161B22?style=flat-square&logo=linux&logoColor=FCC624) |
 
-<div align="center">
+<br/>
 
-### 💻 Frontend Development
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+## Recognition
 
-### 📱 Mobile Development
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+- **LFX Mentee, RISC-V International (Linux Foundation), 2026.** One of three mentees worldwide, with a letter of recommendation from my mentor.
+- **Featured in RISC-V International's weekly newsletter** (25 Sep 2026) and **published on riscv.org.**
+- **Hacktoberfest 2025 SuperContributor**, top 1,000 worldwide.
+- **1st place, inter-university hackathon:** a full-stack event registration app built in under 3 hours. Finalist in three more.
+- **University Project Topper**, ranked #1 in project assessment.
+- **Oracle Cloud Infrastructure Certified Developer Professional** (2025).
+- **City Lead, Jaipur, GirlScript Summer of Code** (2025 to Feb 2026), leading workshops and a student open source community.
 
-### ⚙️ Backend & Database
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<br/>
 
-### ☁️ DevOps & Cloud
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+## Let's build something
 
-</div>
+I'm looking for a full-stack or product engineering role on a fast-moving team, remote or on site, where I can own problems end to end. If you have an unsolved user problem, I'd love to hear about it.
 
----
-
-## 💼 Open Source Contributions
-
-<div align="center">
-
-| Organization | Focus Area | Impact | Status |
-|:---|:---|:---|:---:|
-| 🔒 **OWASP** | Security labs, modularization, CI/CD pipelines | PyGoat project enhancement | ✅ Active |
-| 🏛️ **OpenGov Africa** | Flagship project documentation & fixes | Community governance tools | ✅ Active |
-| 📚 **Storybook** | UI component documentation | Developer experience | ✅ Active |
-| 🍕 **ShareBite** | Backend optimization & feature development | Food sharing platform | ✅ Active |
-
-</div>
-
-> 🌟 **Actively contributing** to improve documentation, fix critical issues, and enhance developer tools across the open-source ecosystem
-
----
-
-## 🚀 Featured Projects
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎬 Movie Ticket Booking System
-**Full Stack Platform**
-
-- Complete end-to-end booking with payment integration
-- Real-time seat selection & availability tracking
-- Admin dashboard for theater management
-- Responsive design with modern UI/UX
-
-**Tech Stack:** React, Node.js, MongoDB, Express
-
-</td>
-<td width="50%" valign="top">
-
-### 🖼️ Reviv Gallery App
-**Smart Media Management**
-
-- AI-powered image categorization
-- Dynamic album creation & organization
-- Cross-platform support (Android & iOS)
-- Cloud sync & backup capabilities
-
-**Tech Stack:** Flutter, Firebase, Native APIs
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧩 OWASP PyGoat Enhancement
-**Security Lab Modularization**
-
-- Modular architecture for security learning
-- Automated CI/CD pipeline implementation
-- Comprehensive documentation improvements
-- Docker containerization
-
-**Tech Stack:** Python, Docker, GitHub Actions
-
-</td>
-<td width="50%" valign="top">
-
-### 🌐 Developer Portfolio
-**Personal Branding**
-
-- Modern, responsive design with animations
-- Project showcase with live demos
-- Dynamic content with GitHub integration
-- SEO optimized
-
-**Tech Stack:** React, TailwindCSS, Vite
-
-</td>
-</tr>
-</table>
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=caffeine-rohit&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=F75C7E&text_color=FFFFFF&langs_count=8" alt="Top Languages" />
-
-</td>
-<td width="50%" align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=caffeine-rohit&theme=radical&hide_border=true&background=0D1117&ring=F75C7E&fire=F75C7E&currStreakLabel=F75C7E" alt="GitHub Streak" />
-
-</td>
-</tr>
-</table>
-
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=caffeine-rohit&theme=react-dark&hide_border=true&bg_color=0D1117&color=F75C7E&line=F75C7E&point=FFFFFF" alt="Contribution Graph" />
-
-</div>
-
----
-
-## 🤝 Let's Connect & Collaborate
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rohit-sharma-connect)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/caffeine-rohit)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:caffeine.rohit@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](rohit-portfolio-five-gilt.vercel.app)
-
-### 💭 Developer Quote
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Quote" />
-
-### 🎯 Current Objective
-
-**Open to collaborations on innovative full-stack projects and open-source initiatives**  
-*Particularly interested in cloud architecture, security engineering, and developer tools*
-
----
-
-<sub>⭐️ From [caffeine-rohit](https://github.com/caffeine-rohit) | Last updated: October 2025</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&fontSize=90" width="100%" />
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/rohit-sharma-connect"><img src="https://img.shields.io/badge/Message%20me%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Message me on LinkedIn"/></a>
+  &nbsp;
+  <a href="mailto:sharmarohit11506@gmail.com"><img src="https://img.shields.io/badge/Email%20me-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email me"/></a>
+</p>
